@@ -1,2 +1,2 @@
 # -maisprati
-Curso dev full stack júnior 
+Curso dev full stack júnior 👨‍💻
