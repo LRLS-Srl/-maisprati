@@ -57,8 +57,9 @@ numeros.sort(function(a,b)
 
 */
 
-let numeros = [3, 6, 1, 2, -3,]
+/*let numeros = [3, 6, 1, 2, -3,]
 let n = numeros.length
+let matriz =[]
 
 for(let i = 0; i < n; i++){
 for(let j = 0; j < n - i; j++){ 
@@ -77,4 +78,17 @@ console.log(numeros)
 
 console.log(numeros.sort((a, b)=> a - b))
 
+*/
+
 /// Se atentar sempre a não esquecer informações 
+
+for(let i = 0; i < 3; i++){
+    matriz[i] = []
+
+for(let j = 0; j < 3; j++){
+    matriz[i][j] = 10;
+
+}
+}
+
+
