@@ -62,7 +62,8 @@ let n = numeros.length
 
 for(let i = 0; i < n; i++){
 for(let j = 0; j < n - i; j++){ 
-    if(numeros[i] > numeros[j + 1]){
+    if(numeros[i] > numeros[j + 1])
+        {
         let temp = numeros[j] 
         numeros[j] = numeros[j + 1]
         numeros[j + 1] = temp
@@ -71,3 +72,9 @@ for(let j = 0; j < n - i; j++){
 }
 
 }
+
+console.log(numeros)
+
+console.log(numeros.sort((a, b)=> a - b))
+
+/// Se atentar sempre a não esquecer informações 
