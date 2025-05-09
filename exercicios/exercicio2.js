@@ -2,7 +2,7 @@
 // adolescente, adulto, idoso) com base no valor fornecido, utilizando uma estrutura de
 // controle if-else.const prompt = require("prompt-sync")({ sigint: true });
 
-function ex2() {
+function exercicio2() {
   const idade = parseInt(prompt("Exercicio2 - Digite a idade: "));
   if (idade <= 12) console.log("Criança");
   else if (idade <= 17) console.log("Adolescente");
