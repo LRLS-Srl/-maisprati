@@ -150,3 +150,10 @@ score = 4 % 3;
 
 console.log(score);  
 
+//Ex.2 coneversor básico de temperatura 
+
+let temp_f = 56;
+let temp_c = (temp_f - 32) / 1.8;
+
+console.log(temp_c);
+
