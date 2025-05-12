@@ -1,8 +1,8 @@
-///Anotações extras sobre o curso e boas praticas nas escritas em java script
+///Anotações extras sobre o curso e boas praticas nas escritas em java script Estas anotações são para pessoas iniciantes
 
 /* console.log ele envia a mensagem para o console do navegador.
 As mensagens devem estar entre os parenteses e as  mensagens dentro deles podem estar entre aspas simples
-e aspas duplas , e o ponto e virgula é considerado uma boa prática entre os devs para evitar erros nos códigos
+e aspas duplas , e o ponto e virgula é considerado uma boa prática entre os devs para evitar erros nos códigos, ele não é necessário em certas linhas.
 */
 
 
@@ -24,7 +24,7 @@ nós permitindo fazer diversas linhas de comentarios.
 
 // Desafio Final feito no Codedex Fazer uma nota fiscal com console.log
 
-console.log("================================================");
+ console.log("================================================");
  console.log("                   Posto Gambino               ");
  console.log("------------------------------------------------");
  console.log("               Detalhes de compra              ");
