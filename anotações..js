@@ -128,3 +128,25 @@ console.log(companyName);
 console.log(foundingYear);
 console.log(isActive);
 console.log(fundingAmount);
+
+/* Operadores matématicos 
++ Adição
+- Subatração
+/ Divisão
+* Múltiplicação
+% Módulo (denvolve o restante)
+** Exponente em breve...
+*/
+
+// Ex.1 pontuação
+
+let score = 0;       
+
+score = 4 + 3;        
+score = 4 - 3;        
+score = 4 * 3;        
+score = 4 / 3;        
+score = 4 % 3;       
+
+console.log(score);  
+
