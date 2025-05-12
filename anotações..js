@@ -112,7 +112,7 @@ let earthIsFlat = "False";
 //Ou pode acontecer quando um valor undefined é atribuido explicitamente.
 
 let startDate = "01/02/2025";
-let endDate=; // let endDate é undefined
+let endDate= 0; // let endDate é undefined
 
 console.log(startDate);
 console.log(endDate);
