@@ -36,6 +36,54 @@ nós permitindo fazer diversas linhas de comentarios.
 
  //Forma divertida de aprender a fazer uma string.
 
- // Agora iremos aprender a declarar Váriaveis como const e let
+ /* Agora iremos aprender a declarar Váriaveis como const e let.
+ Estas váriaveis armazenam valores que podem ser usados posteriormente e cada váviavel tem um nome exemplo 
 
- 
+ const userId = "14561565815";
+ let  User name = "Leonardo"
+
+ Como podemos ver const declara a vàriavel userId  inf.está variavel não muda premenece a mesma 
+ por isso usamos o const, seguida de um atribuir(=).
+ E let é usado para váriaveis que podem ser alteradas como o nome do usuário,
+ Você deve ter notado que nomes de variáveis como userName são escritos em camelCase, onde a primeira palavra é toda minúscula 
+ e a primeira letra de todas as outras palavras são maiúsculas.
+ Esta convenção é usada para nomes de variáveis feitos de mais de uma palavra.
+O = sinal de igual significa atribuição.
+*/
+
+//Ex.1 
+
+const userId = "123456670";
+console.log (userId);
+
+userId = "321";
+
+//Teremos um erro de syntax na declração do userId tentando reatribuir um novo valor ou deixando ele em branco
+
+//Ex.1 Neste caso usamos o const e let para ativuir as váriaveis idade, nome, cor favorita e humor com o console .log 
+// inserimos as mensagens do console e támbem atribuimos as váriaveis
+
+const userIdade = "25";
+
+ console.log("Idade do usuário");
+
+console.log(userIdade);
+
+let userName = "Leonardo"
+
+console.log("Nome do usuário");
+
+console.log(userName);
+
+
+console.log("Cor favorita");
+
+const variableCor = "Roxo";
+
+console.log(variableCor);
+
+console.log("Humor de hoje");
+
+let variableHumor = "Feliz";
+
+console.log(variableHumor);
