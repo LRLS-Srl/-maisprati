@@ -157,3 +157,30 @@ let temp_c = (temp_f - 32) / 1.8;
 
 console.log(temp_c);
 
+
+/*Em java támbem podemos fazer potencias na 2º a 10º potencia e para fazer isso
+  usamos ** para fazer uma potencia
+
+  score = 2**2  score is 4
+  score = 2**3  score is now 8
+  score = 4**2 score is now 8
+
+  */
+
+  // EX.1 Fazendo uma calculadora de IMC
+
+  let peso = 120;
+ 
+ let altura = 1.80;
+
+ let total = 120 / (altura**2); // nesta parte faz a divisão e aplica a potencia a váviavel altura 
+
+ console.log(total);
+
+ //Ex.2 Fazer um conversor de peso na terra e em marte.
+
+ const pesoTerra = "120";
+const pesoMarte = pesoTerra * 0.38;
+
+console.log(" Seu peso na terra é: " + pesoTerra + "kgs");
+console.log("Seu pesso em marte é: " + pesoMarte + "kgs")
