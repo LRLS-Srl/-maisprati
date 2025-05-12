@@ -87,3 +87,44 @@ console.log("Humor de hoje");
 let variableHumor = "Feliz";
 
 console.log(variableHumor);
+
+// Tipos de dados armazenados com let e const
+
+//Números podem ser quais quer números decimais ou inteiros
+
+let year = "2023";
+const daysofWeek = "7";
+let age = "24";
+const pi = "3,14";
+
+//Cordas as cordas são envoltas de aspas "" ou aspas ''.
+
+let messange = "Good night";
+let name = 'Leonardo';
+const company = "Lr store";
+
+//Booleano  parte da base de confirmação com true e false
+
+let hungry = "true";
+let earthIsFlat = "False";
+
+//Indefinodo toda e qualquer váriavel que foi declarda; mas ainda não recebu valor um "undefined" 
+//Ou pode acontecer quando um valor undefined é atribuido explicitamente.
+
+let startDate = "01/02/2025";
+let endDate=; // let endDate é undefined
+
+console.log(startDate);
+console.log(endDate);
+
+//Ex.1 Fazer uma apresentação de empresa com os tipos de dados
+
+const companyName = "Niteowl, Inc.";
+const foundingYear = 2022;
+let isActive = true;
+let fundingAmount = undefined;
+
+console.log(companyName);
+console.log(foundingYear);
+console.log(isActive);
+console.log(fundingAmount);
