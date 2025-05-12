@@ -35,3 +35,7 @@ console.log("================================================");
  console.log("-------------------------------------------------");
 
  //Forma divertida de aprender a fazer uma string.
+
+ // Agora iremos aprender a declarar Váriaveis como const e let
+
+ 
