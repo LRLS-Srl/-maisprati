@@ -8,6 +8,7 @@ const hora = 11; // minha const tem que ser menor que 12h para imprimir Bom dia 
 if(hora < 12) {
   console.log("Bom dia");
 }
+  
 
 // Já controle de fluxo com o else se a condição dentro do if for false ele executa oque está dentro do else
 
@@ -18,8 +19,9 @@ const hora = "10";
 if(hora < 12){
   console.log("Bom dia!");
   }else{  
-    console.log("Boa tarde");
+    console.log("Boa tarde"); 
 }
+  
 
 //Como o const foi abaixo do meio dia ele imprime no console Bom dia , se fosse exemplo 14 imprimiria Boa tarde
 
@@ -43,6 +45,7 @@ if(ph > 7){
   console.log("Neutro");
 }
 
+
 ///Vendo sobre Math.random() digamos que usamos 
 
 console.log(Math.random());
@@ -57,11 +60,32 @@ console.log(Math.floor(Math.random() * 10));
 
 const question = "Faça sua pergunta!";
 
-const randomNumber = Math.floor(Math.random()*9) +1;
+const randomNumber = Math.floor(Math.random()*9) +1; //Gera a resposta conforme o número até 9, tudo isso de forma aleatória pelo Math.random
+//Math.floor está centralizando os numero até 9
 
-let anwser = "";
+let answer = ""; //Váriavel de resposta aleatória as aspas ficam vazias para serem preenchidas pelas respostas dos números
 
 if(randomNumber === 1){
-  anwser("Sim está certo");
-}else if (randomNumber)
-  ///Continuar a mesma linha de raciocínio 
+  answer = 'Sim está certo'; /// este foi nosso console.log só substituido por answer do let(Váriavel mutável)
+}else if(randomNumber === 2){
+  answer = 'Pode estar correto';
+}else if(randomNumber === 3){
+  answer = 'Faça outra pergunta';
+} else if(randomNumber === 4){
+  answer = 'Não foi desta vez';
+}else if(randomNumber === 5){
+  answer = 'Você errou';
+} else if(randomNumber === 6){
+ answer = 'Pergunta boa';
+} else if(randomNumber === 7){
+  answer = 'Tentaremos outro dia';
+}else if(randomNumber === 8){
+  answer = 'Idiota!!';
+}else if(randomNumber === 9){
+  answer = 'Acabou sua vez';
+}else{
+  answer = 'Erro';
+}
+
+console.log("Pergunta", question);
+console.log("Resposta", answer);
