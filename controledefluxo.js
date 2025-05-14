@@ -30,7 +30,7 @@ if(hora < 12){
 //Saõ eles: === estrito igual, !== rigoroso não é igual, > maior do que, >= maior ou igual, < menor do que, =< igual ou menor que.
 
 // Além do if/else podemos usar else if para fazer mais comparações ainda no código
-// isso não fica estrito á apenas um podemosincluir quantos quiser
+// isso não fica estrito á apenas um podemos incluir quantos quiser
 
 
 //Ex.3 Fazendo comparativo de ph entre ácido, básico e neutro
@@ -115,4 +115,44 @@ if(aqi > 0 && aqi <= 50){
  console.log("Se proteja");
 }
 
-///Começamos bem foram feitas alterações 
+///Começamos bem foram feitas alterações durante o teste, mas a logica foi quase 100% correta o código a cima foi o teste final após os erros
+
+
+///fazendo jogo de pedra,papel e tesoura não tive sucesso ao fazer Copiado da solução
+
+const player = 2;
+const computer = Math.floor(Math.random() * 3);
+
+if (player === 0) {
+  if (computer === 0) {
+    console.log("Draw");
+  } else if (computer === 1) {
+    console.log("The computer won!");
+  } else if (computer === 2) {
+    console.log("The player won!");
+  } else {
+    console.log("An error occurred");
+  }
+} else if (player === 1) {
+  if (computer === 0) {
+    console.log("The player won!");
+  } else if (computer === 1) {
+    console.log("Draw");
+  } else if (computer === 2) {
+    console.log("The computer won!");
+  } else {
+    console.log("An error occurred");
+  }
+} else if (player === 2) {
+  if (computer === 0) {
+    console.log("The computer won!");
+  } else if (computer === 1) {
+    console.log("The player won!");
+  } else if (computer === 2) {
+    console.log("Draw");
+  } else {
+    console.log("An error occurred");
+  }
+} else {
+  console.log("An error occurred");
+}
