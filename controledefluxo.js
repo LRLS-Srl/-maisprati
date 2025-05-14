@@ -89,3 +89,30 @@ if(randomNumber === 1){
 
 console.log("Pergunta", question);
 console.log("Resposta", answer);
+
+
+/// Operadores Logicos booleanos &&, || e !
+
+//And conhecido por && retorna a condição true se for True e se for false acontece os mesmo.
+//OR || retorna a condição true se pelo menos uma das condições por true, e false acontece o mesmo
+//Operador NÂO logico ! retorna true se a condição for false, e vice versa
+
+//Ex.1 Fazendo um indicador de indice aqi de qualidade do ar 
+
+const aqi = "265";
+
+if(aqi > 0 && aqi <= 50){
+  console.log("Bom");
+} else if(aqi >= 51 && aqi<= 100){
+  console.log("Moderado");
+} else if(aqi >= 101 && aqi <= 150){
+  console.log ("Alerta grupos sensiveis");
+} else if(aqi >= 151  && aqi <= 200){
+  console.log("Perigoso")
+} else if(aqi >= 201 && aqi <= 300){
+  console.log("Alerta Máximo")
+}else{
+ console.log("Se proteja");
+}
+
+///Começamos bem foram feitas alterações 
